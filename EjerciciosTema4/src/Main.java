@@ -33,5 +33,15 @@ public class Main {
             System.out.println("El numero: " + numeroWhile);
             numeroWhile++;
         }
+
+        System.out.println("|| EJERCICIO DEL DO WHILE ||");
+
+        //Para el bucle Do While, deberás crear la misma estructura que en el While, pero solo se debe ejecutar una vez.
+        int numerodowhile = 2;
+
+        do {
+            System.out.println(numerodowhile);
+            numerodowhile++;
+        }while (numerodowhile < 3);
     }
 }
